@@ -1,0 +1,538 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Maximiliano Villalva</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{% static 'img/favicon.png' %}" rel="icon">
+  <link href="{% static 'img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/boxicons/css/boxicons.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/remixicon/remixicon.css' %}" rel="stylesheet">
+  <link href="{% static 'vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{% static 'css/style.css' %}" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Personal - v4.7.0
+  * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="container">
+
+      <h1><a href="/">Maximiliano Villalva</a></h1>      
+      <h2>Soy un apasionado <span>desarrolador</span> de Buenos Aires, Argentina</h2>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link active" href="#header">Inicio</a></li>
+          <li><a class="nav-link" href="#about">Acerca de</a></li>
+          <li><a class="nav-link" href="#resume">CV</a></li>
+          <!-- <li><a class="nav-link" href="#portfolio">Portfolio</a></li> -->
+          <li><a class="nav-link" href="#contact">Contacto</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/maximiliano-villalva" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
+        <a href="https://github.com/mvillalva" target="_blank" class="github"><i class="bi bi-github"></i></a>
+        <!-- <a href="https://www.facebook.com/maxi.l.villalva/" class="facebook"><i class="bi bi-facebook"></i></a>
+        <a href="https://www.instagram.com/max.leon.v/" class="instagram"><i class="bi bi-instagram"></i></a> -->
+      </div>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= About Section ======= -->
+  <section id="about" class="about">
+
+    <!-- ======= About Me ======= -->
+    <div class="about-me container">
+
+      <div class="section-title">
+        <h2>Acerca de</h2>
+        <p>Más acerca de mí</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4" data-aos="fade-right">
+          <img src="{% static 'img/me1.png' %}" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+          <h3>Software &amp; Web Developer</h3>
+          <p class="fst-italic">
+            Hace un poco más de 20 años que me dedico al desarrollo de Software. Me apasiona aprender e investigar nuevas tecnologías las cuales las aplico en los desafíos que me propongo.
+          </p>
+          <div class="row">
+            <div class="col-lg-6">
+              <ul>
+                <li><i class="bi bi-chevron-right"></i> <strong>Cumpleaños:</strong> <span>4 Octubre</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Página Web:</strong> <span><a href="https://www.maxleonv.com">www.maxleonv.com</a></span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Teléfono:</strong> <span><a href="tel:+5491132811958">+54 9 11 3281 1958</a></span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Lugar:</strong> <span>Buenos Aires, Argentina</span></li>
+              </ul>
+            </div>
+            <div class="col-lg-6">
+              <ul>
+                <li><i class="bi bi-chevron-right"></i> <strong>Edad:</strong> <span id="age">44</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Grado:</strong> <span>Senior</span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span><a href="mailto:maxi.villalva@gmail.com">maxi.villalva@gmail.com</a></span></li>
+                <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Disponible</span></li>
+              </ul>
+            </div>
+          </div>
+          <p>
+            Soy Licenciado en Sistemas de Información y enfoqué mi skill profesional en el desarrollo de software.
+            Mi primer contacto con la programación orientada a objetos (POO) fue a través de Delphi, luego de mucho tiempo utilizando ese lenguaje
+            comence a investigar y desarrollar en C#. También programo en PowerBuilder y QlikSense, y hace un tiempo puse mi enfoque 
+            en el diseño y la creación de aplicaciones webs.
+          </p>
+        </div>
+      </div>
+
+    </div><!-- End About Me -->
+
+    <!-- ======= Counts ======= -->
+    <div class="counts container">
+
+      <div class="row">
+
+        <!-- <div class="col-lg-4 col-md-6">
+          <div class="count-box">
+            <i class="bi bi-emoji-smile"></i>
+            <span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Clientes contentos</p>
+          </div>
+        </div> -->
+
+        <div class="col-lg-6 mt-5 mt-md-0">
+          <div class="count-box">
+            <i class="bi bi-journal-richtext"></i>
+            <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Proyectos personales</p>
+          </div>
+        </div>
+
+        <div class="col-lg-6 mt-5 mt-lg-0">
+          <div class="count-box">
+            <i class="bi bi-activity"></i>
+            <span data-purecounter-start="0" data-purecounter-end="20" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Años de desarrollo</p>
+          </div>
+        </div>        
+
+      </div>
+
+    </div><!-- End Counts -->
+
+    <!-- ======= Skills  ======= -->
+    <div class="skills container">
+
+      <div class="section-title">
+        <h2>Skills</h2>
+      </div>
+
+      <div class="row skills-content">
+
+        <div class="col-lg-6">
+
+          <div class="progress">
+            <span class="skill">HTML <i class="val">95%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">CSS <i class="val">80%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">JavaScript <i class="val">75%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-6">
+
+          <div class="progress">
+            <span class="skill">PHP <i class="val">80%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">Python <i class="val">70%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">Django <i class="val">60%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-lg-6">
+
+          <div class="progress">
+            <span class="skill">Delphi <i class="val">90%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">.Net C# <i class="val">55%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">SQL Server <i class="val">70%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="col-lg-6">
+
+          <div class="progress">
+            <span class="skill">Qlik Sense <i class="val">75%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">MySQL <i class="val">70%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+          <div class="progress">
+            <span class="skill">PowerBuilder <i class="val">80%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-lg-6">
+
+          <div class="progress">
+            <span class="skill">Node.js <i class="val">40%</i></span>
+            <div class="progress-bar-wrap">
+              <div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div><!-- End Skills -->
+
+  </section><!-- End About Section -->
+
+  <!-- ======= Resume Section ======= -->
+  <section id="resume" class="resume">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>CV</h2>
+        <p>Currículum</p>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6">
+          <h3 class="resume-title">Resumen</h3>
+          <div class="resume-item pb-0">
+            <h4>Maximiliano Leonardo Villalva</h4>
+            <p><em>Soy un desarrollador con +20 años de experiencia utilizando diferentes tecnologías. 
+              Me gusta investigar, aprender e implementar nuevas tecnologías y herramientas para enriquecer mi skill profesional.</em></p>
+            <p>
+            <ul>
+              <li>Buenos Aires, Argentina</li>
+              <li><a class="tel" href="tel:+5491132811958">+54 9 11 3281 1958</a></li>
+              <li><a class="mail" href="mailto:maxi.villalva@gmail.com">maxi.villalva@gmail.com</a></li>
+            </ul>
+            </p>
+          </div>
+
+          <h3 class="resume-title">Educación</h3>
+          <div class="resume-item">
+            <h4>Licenciatura en Sistemas de Informaicón</h4>
+            <h5>2009</h5>
+            <p><em>Universidad del Salvador, Buenos Aires, Argentina</em></p>
+            <p>Graduado</p>
+          </div>          
+
+          <h3 class="resume-title">Formación Complementaria</h3>
+          <div class="resume-item">
+            <h4>Programación Python</h4>
+            <h5>2021</h5>
+            <p><em>Universidad Nacional de San Martín, Buenos Aires, Argentina</em></p>
+            <p>Estructuras y funciones. 
+              Trabajo con datos
+              Algoritmos sobre listas y comprensión de listas. 
+              Aleatoriedad. 
+              Complejidad y Organización de programas. 
+              Matplotlib, Numpy. 
+              Diseño, especificación, documentación y estilo. 
+              Fechas, Carpetas y Pandas. 
+              Clases y objetos. 
+              Generadores e iteradores. 
+              Recursión y regresión. 
+              Ordenamiento. </p>
+          </div>          
+
+          <div class="resume-item">
+            <h4>Python Full Stack</h4>
+            <h5>2021</h5>
+            <p><em>Programa Codo a Codo 4.0, Buenos Aires, Argentina</em></p>
+            <p>Diseño y desarrollo de aplicaciones web utilizando HTML5, CSS3, Bootstrap, vanilla JavaScript, Flask y Django con bases de datos MySQL y PostgreSQL</p>
+          </div>
+
+          <div class="resume-item">
+            <h4>Node.js</h4>
+            <h5>2021</h5>
+            <p><em>Programa Codo a Codo 4.0, Buenos Aires, Argentina</em></p>
+            <p>Diseño y desarrollo de aplicaciones web utilizando HTML5, CSS3, Bootstrap, vanilla JavaScript, Node.js y Express con bases de datos MySQL</p>
+          </div>
+
+          <div class="resume-item">
+            <h4>Qlik Sense Set Analysis</h4>
+            <h5>2020</h5>
+            <p><em>DataIQ, Buenos Aires, Argentina</em></p>
+            <p>Armado de dimensiones y medidas complejas.</p>
+          </div>
+
+          <div class="resume-item">
+            <h4>Qlik Sense Designer &amp; Developer</h4>
+            <h5>2019</h5>
+            <p><em>DataIQ, Buenos Aires, Argentina</em></p>
+            <p>Scripts de carga, modelado, definición de dimensiones y medidas complejas, uso de QVDs, cargas incrementales, testing.              
+              Modelado de bases de datos. Administración de los recursos a través de Qlik Management
+              Console (QMC): planificación de tareas, reglas de seguridad, custom properties, gestión
+              de usuarios y streams, conexiones de fuentes de datos, etc.</p>
+          </div>
+
+        </div>
+        <div class="col-lg-6">
+          <h3 class="resume-title">Experiencia Laboral</h3>
+          <div class="resume-item">
+            <h4>Desarrollador PowerBuilder, QlikSense y PHP Senior</h4>
+            <h5>2016 - Present</h5>
+            <p><em>Infomedical, Buenos Aires, Argentina </em></p>
+            <p>
+            <ul>
+              <li>Desarrollo de aplicaciones web en PHP, Bootstrap y SQL Server.</li>
+              <li>Creación y diseño de aplicaciones Qlik Sense.</li>
+              <li>Desarrollo de aplicaciones PowerBuilder desktop con base de datos SQL Server.</li>
+              <li>Desarrollo de aplicaciones PowerBuilder Appeon (web).</li>
+            </ul>
+            </p>
+          </div>
+
+          <div class="resume-item">
+            <h4>Gerente de Desarrollo</h4>
+            <h5>2011 - 2016</h5>
+            <p><em>Meditec SRL, Buenos Aires, Argentina</em></p>
+            <p>
+            <ul>
+              <li>Gestión y coordinación de sector de desarrollo.</li>
+              <li>Couching en programación Delphi.</li>
+              <li>Couching en diseño de bases de datos</li>              
+            </ul>
+            </p>
+          </div>
+
+          <div class="resume-item">
+            <h4>Líder de Proyecto</h4>
+            <h5>2010 - 2011</h5>
+            <p><em>Meditec SRL, Buenos Aires, Argentina</em></p>
+            <p>
+            <ul>
+              <li>Gestión de proyectos.</li>
+              <li>Desarrollo de aplicaciones Delphi.</li>              
+            </ul>
+            </p>
+          </div>
+
+          <div class="resume-item">
+            <h4>Programador Delphi 7 Semi Senior y .Net C# Junior</h4>
+            <h5>2007 - 2010</h5>
+            <p><em>Meditec SRL, Buenos Aires, Argentina</em></p>
+            <p>
+            <ul>
+              <li>Desarrollo de aplicacione en Delphi 7 y XE2.</li>
+              <li>Diseño y mantenimiento de bases de datos Firebird.</li>
+              <li>Mantenimiento de aplicaciones para Pocket PC.</li>
+            </ul>
+            </p>
+          </div>
+
+          <div class="resume-item">
+            <h4>Programador Delphi 7 Junior</h4>
+            <h5>2004 - 2007</h5>
+            <p><em>Axoft Argentina S.A., Buenos Aires, Argentina</em></p>
+            <p>
+            <ul>
+              <li>Desarrollo y mantenimiento de funcionalidad para sistema Tango y Restô en Delphi 7.</li>
+              <li>Manejo de drivers para controladores fiscales.</li>
+              <li>Desarrollo de modulos para Posnet.</li>
+            </ul>
+            </p>
+          </div>
+
+          <div class="resume-item">
+            <h4>Atención al Cliente</h4>
+            <h5>2000 - 2004</h5>
+            <p><em>Axoft Argentina S.A., Buenos Aires, Argentina</em></p>
+            <p>
+            <ul>
+              <li>Atención telefónica de clientes Tango y Restô.</li>
+              <li>Atención telefónica de proveedores Tango y Restô.</li>
+              <li>Solución de problemas en domicilio.</li>
+            </ul>
+            </p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section><!-- End Resume Section -->
+
+  <!-- ======= Contact Section ======= -->
+  <section id="contact" class="contact">
+    <div class="container">
+
+      <div class="section-title">
+        <h2>Contacto</h2>
+        <p>Contáctame</p>
+      </div>
+
+      <div class="row mt-2">
+
+        <div class="col-md-6 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-map"></i>
+            <h3>Mi Dirección</h3>
+            <p>Buenos Aires, Argentina</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-share-alt"></i>
+            <h3>Redes Sociales</h3>
+            <div class="social-links">                            
+              <a href="https://www.linkedin.com/in/maximiliano-villalva" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
+              <a href="https://github.com/mvillalva" target="_blank" class="github"><i class="bi bi-github"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 mt-4 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-envelope"></i>
+            <h3>Mi Correo</h3>            
+            <p><a class="mail" href="mailto:maxi.villalva@gmail.com">maxi.villalva@gmail.com</a></p>
+          </div>
+        </div>
+        <div class="col-md-6 mt-4 d-flex align-items-stretch">
+          <div class="info-box">
+            <i class="bx bx-phone-call"></i>
+            <h3>Llámame</h3>
+            <p><a class="tel" href="tel:+5491132811958">+54 9 11 3281 1958</a></p>
+          </div>
+        </div>
+      </div>
+
+      <form action="." method="post" role="form" class="php-email-form mt-4" id="formContacto">
+        <div class="row">
+          <div class="col-md-6 form-group">
+            {{ form.nombre }}
+          </div>
+          <div class="col-md-6 form-group mt-3 mt-md-0">
+            {{ form.email }}
+          </div>
+        </div>
+        <div class="form-group mt-3">
+          {{ form.asunto }}
+        </div>
+        <div class="form-group mt-3">
+          {{ form.mensaje }}
+        </div>
+        <div class="my-3">
+          <div class="loading">Cargando</div>
+          <div class="error-message"></div>
+          <div class="sent-message">Tu mensaje ha sido enviado. Gracias!</div>
+        </div>
+        <div class="text-center"><button type="submit">Enviar Mensaje</button></div>
+      </form>
+
+    </div>
+  </section><!-- End Contact Section -->
+
+  <div class="credits">
+    <!-- All the links in the footer should remain intact. -->
+    <!-- You can delete the links only if you purchased the pro version. -->
+    <!-- Licensing information: https://bootstrapmade.com/license/ -->
+    <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/personal-free-resume-bootstrap-template/ -->
+    <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
+  </div>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'vendor/purecounter/purecounter.js' %}"></script>
+  <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'vendor/glightbox/js/glightbox.min.js' %}"></script>
+  <script src="{% static 'vendor/isotope-layout/isotope.pkgd.min.js' %}"></script>
+  <script src="{% static 'vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <script src="{% static 'vendor/waypoints/noframework.waypoints.js' %}"></script>
+  <script src="{% static 'vendor/django-email-form/validate.js' %}"></script>
+
+  <!-- Template Main JS File -->
+  <script src="{% static 'js/main.js' %}"></script>
+</body>
+
+</html>
